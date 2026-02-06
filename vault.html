@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vault - Subodh Bhattarai</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <style>
+    body { font-family: Arial, sans-serif; background: #0f172a; color: #fff; text-align: center; padding: 50px; }
+    input { padding: 10px; width: 250px; margin: 10px 0; }
+    button { padding: 10px 20px; cursor: pointer; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <h1>Private Vault</h1>
+  <p>Access is restricted. Use your authorized email via Cloudflare Access.</p>
+  <div id="vault-content" class="hidden">
+    <h2>Your Downloads</h2>
+    <ul>
+      <li><a href="/files/file1.pdf" download>File 1</a></li>
+      <li><a href="/files/file2.zip" download>File 2</a></li>
+    </ul>
+  </div>
+
+  <script>
+    // Placeholder: Cloudflare Access will handle auth
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("vault-content").classList.remove("hidden");
+    });
+  </script>
+</body>
+</html>
