@@ -1,49 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="shortcut icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-<meta name="apple-mobile-web-app-title" content="SB" />
-<link rel="manifest" href="/site.webmanifest" />
-  <meta charset="UTF-8" />
-  <title>Subodh Bhattarai | Developer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-      margin: 0;
-      padding: 2rem;
-    }
-    h1 { font-size: 2.5rem; margin-bottom: 0.2rem; }
-    p { color: #cbd5f5; }
-    a { color: #38bdf8; text-decoration: none; }
-    .container { max-width: 800px; margin: auto; }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subodh Bhattarai — Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Subodh Bhattarai">
+  <meta property="og:description" content="Portfolio, Projects, Experiments">
+  <meta property="og:image" content="/og.png">
+  <meta property="og:url" content="https://subodhbhattarai1.com.np">
+  <meta property="og:type" content="website">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1>Subodh Bhattarai</h1>
-    <p>Developer | CS Student | Tech Enthusiast</p>
+    <p>CSIT Student | Developer | Creative Experiments</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <h2>About</h2>
-    <p>
-      I’m a CS student interested in development, security, and building things
-      that actually work.
-    </p>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="/projects/project1.png" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>Short description.</p>
+      </div>
+      <div class="card">
+        <img src="/projects/project2.png" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>Short description.</p>
+      </div>
+    </div>
+  </section>
 
-    <h2>Links</h2>
-    <ul>
-      <li><a href="https://github.com/MetalNinja999">GitHub</a></li>
-      <li>
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=subodhbhattarai462@email.com" target="_blank">
-    Email
-  </a>
-</li>
-    </ul>
-  </div>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m Subodh Bhattarai, a CSIT student passionate about coding, security, and creative web experiments. I build clean, minimal, and functional projects that solve problems.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=subodhbhattarai462@email.com" target="_blank">Email Me</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Subodh Bhattarai</p>
+  </footer>
 </body>
 </html>
